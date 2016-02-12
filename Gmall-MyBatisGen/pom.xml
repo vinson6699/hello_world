@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gmall88</groupId>
+  <artifactId>Gmall-MyBatisGen</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging>
+  <name>Gmall-MyBatisGen</name>
+  <description>Gmall-MyBatisGen</description>
+  
+  <build>
+		<pluginManagement>
+			<plugins>
+				<!-- debug configurations maven build Msg ${workspace_loc:/Msg} jetty:run -->
+				<plugin>
+					<groupId>org.mortbay.jetty</groupId>
+					<artifactId>maven-jetty-plugin</artifactId>
+					<version>6.1.26</version>
+				</plugin>
+
+
+				<plugin>
+					<groupId>org.mybatis.generator</groupId>
+					<artifactId>mybatis-generator-maven-plugin</artifactId>
+					<version>1.3.2</version>
+					<configuration>
+						<verbose>true</verbose>
+						<overwrite>true</overwrite>
+					</configuration>
+				</plugin>
+			</plugins>
+
+
+		</pluginManagement>
+		<finalName>Gmall-MyBatisGen</finalName>
+	</build>
+</project>
