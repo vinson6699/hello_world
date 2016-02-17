@@ -43,7 +43,7 @@
 		<table schema="AttachTemp" tableName="t_attach_temp" />
 		<table schema="Attachment" tableName="t_attachment" />
 		-->
-		<table tableName="t_user_collect" domainObjectName="UserCollect"/>
+		<table tableName="t_user_collect" domainObjectName="UserCollecttest"/>
 		
 		<!-- <table tableName="t_user_collect" domainObjectName="UserCollect">
 			<columnOverride column="column_name" javaType="java.lang.String" jdbcType="VARCHAR" />
